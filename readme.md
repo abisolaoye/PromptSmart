@@ -1,6 +1,7 @@
-# 📚 PromptSmart: Analyzing and Preparing Prompt Data for LLM Research
+#  PromptSmart: Analyzing and Preparing Prompt Data for LLM Research
 
-This project focuses on analyzing and preparing the [Alpaca dataset](https://github.com/tatsu-lab/stanford_alpaca) for instruction-tuned Large Language Models (LLMs). It explores fairness, math reasoning, and prompt formatting — foundational elements in building more inclusive and reliable AI systems.
+This project focuses on analyzing and preparing the [Alpaca dataset](https://github.com/tatsu-lab/stanford_alpaca) for instruction-tuned Large Language Models (LLMs).
+It explores fairness, math reasoning, and prompt formatting which are foundational elements in building more inclusive and reliable AI systems.
 
 ## Key Features
 
@@ -10,6 +11,7 @@ This project focuses on analyzing and preparing the [Alpaca dataset](https://git
 - Format data for instruction-following tasks
 - Modular code structure using Python and PyTorch
 - Custom keyword search via `search.py`
+  
 
 ##  Project Structure
 
@@ -26,7 +28,7 @@ PromptSmart/
 ├── README.md  
 ├── .gitignore  
 
-**The .gitignore file ensures that unnecessary or sensitive files (e.g., virtual environments, checkpoints) are excluded from version control.**
+
 
 ## 🔧 Setup Instructions
 
@@ -38,11 +40,12 @@ PromptSmart/
 
 ## 📈 Sample Insight
 
-After analyzing prompt categories, we found that **"math"** and **"climate"** are the most represented topics in the dataset. This insight highlights topic imbalances — a useful signal when designing fair and representative instruction datasets.
+After analyzing prompt categories, we found that **"math"** and **"climate"** are the most represented topics in the dataset. 
+This insight highlights topic imbalances; a useful signal when designing fair and representative instruction datasets.
 
 ## 🙋🏽 About
 
-Created with ❤️**Abisola Oyetunji** as part of a research-driven exploration into LLM prompt quality, fairness, and responsible AI design.  
+Created with ❤️ by **Abisola Oyetunji** as part of a research-driven exploration into LLM prompt quality, fairness, and responsible AI design.  
 
 
 
